@@ -1,0 +1,1088 @@
+fileFormatVersion: 2
+guid: 62aff0837f97e814c983978c5d66b896
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4203980719813929611
+    second: Tex_2000_0
+  - first:
+      213: 4154286670732315781
+    second: Tex_2000_1
+  - first:
+      213: 4572175334953431523
+    second: Tex_2000_2
+  - first:
+      213: -915413960371450189
+    second: Tex_2000_3
+  - first:
+      213: 5309295369915262745
+    second: Tex_2000_4
+  - first:
+      213: -4040568117188943027
+    second: Tex_2000_5
+  - first:
+      213: -1711401254948146838
+    second: Tex_2000_6
+  - first:
+      213: 1840549947064513882
+    second: Tex_2000_7
+  - first:
+      213: -5705688636810535178
+    second: Tex_2000_8
+  - first:
+      213: 2285339039332045630
+    second: Tex_2000_9
+  - first:
+      213: 2290780678510108810
+    second: Tex_2000_10
+  - first:
+      213: -384175756618841488
+    second: Tex_2000_11
+  - first:
+      213: 400348431427921282
+    second: Tex_2000_12
+  - first:
+      213: 9193280395831040587
+    second: Tex_2000_13
+  - first:
+      213: -7407333218135065926
+    second: Tex_2000_14
+  - first:
+      213: 5745708867717910034
+    second: Tex_2000_15
+  - first:
+      213: -625837642581627232
+    second: Tex_2000_16
+  - first:
+      213: -8072654939863087859
+    second: Tex_2000_17
+  - first:
+      213: 9031421533458864407
+    second: Tex_2000_18
+  - first:
+      213: 3021496386512149495
+    second: Tex_2000_19
+  - first:
+      213: 1883940338330486969
+    second: Tex_2000_20
+  - first:
+      213: 5510605284989448391
+    second: Tex_2000_21
+  - first:
+      213: -3562820891224157334
+    second: Tex_2000_22
+  - first:
+      213: 6704223250862928329
+    second: Tex_2000_23
+  - first:
+      213: 4344880633585597584
+    second: Tex_2000_24
+  - first:
+      213: -380222289965511134
+    second: Tex_2000_25
+  - first:
+      213: -1839747180223541494
+    second: Tex_2000_26
+  - first:
+      213: -5185652332346776626
+    second: Tex_2000_27
+  - first:
+      213: -6807742994551734974
+    second: Tex_2000_28
+  - first:
+      213: 5140685091139297241
+    second: Tex_2000_29
+  - first:
+      213: -8045484871782118534
+    second: Tex_2000_30
+  - first:
+      213: 3733963289855795493
+    second: Tex_2000_31
+  - first:
+      213: 2820751049118001974
+    second: Tex_2000_32
+  - first:
+      213: 4635269311740559130
+    second: Tex_2000_33
+  - first:
+      213: -1967711040756304919
+    second: Tex_2000_34
+  - first:
+      213: 5792539026229382243
+    second: Tex_2000_35
+  - first:
+      213: 4746701971361672404
+    second: Tex_2000_36
+  - first:
+      213: 2777474474185919189
+    second: Tex_2000_37
+  - first:
+      213: -7849823029316871609
+    second: Tex_2000_38
+  - first:
+      213: -2332335876930114065
+    second: Tex_2000_39
+  - first:
+      213: 470973007467512079
+    second: Tex_2000_40
+  - first:
+      213: -3033078617380872385
+    second: Tex_2000_41
+  - first:
+      213: -7029816403935535068
+    second: Tex_2000_42
+  - first:
+      213: -1734547171805968290
+    second: Tex_2000_43
+  - first:
+      213: -4676363916878051284
+    second: Tex_2000_44
+  - first:
+      213: -7900887470719203352
+    second: Tex_2000_45
+  - first:
+      213: -2443545150057446139
+    second: Tex_2000_46
+  - first:
+      213: 3329314591136809142
+    second: Tex_2000_47
+  - first:
+      213: -5265172129096317889
+    second: Tex_2000_48
+  - first:
+      213: -2493311999878069725
+    second: Tex_2000_49
+  - first:
+      213: 2073255945883464560
+    second: Tex_2000_50
+  - first:
+      213: 2858254294925027525
+    second: Tex_2000_51
+  - first:
+      213: -9071140155254766508
+    second: Tex_2000_52
+  - first:
+      213: 8228184842051859139
+    second: Tex_2000_53
+  - first:
+      213: 5427775634672315169
+    second: Tex_2000_54
+  - first:
+      213: -1615877755224628338
+    second: Tex_2000_55
+  - first:
+      213: 695700620897273857
+    second: Tex_2000_56
+  - first:
+      213: 4696343251560085040
+    second: Tex_2000_57
+  - first:
+      213: -233371555582847987
+    second: Tex_2000_58
+  - first:
+      213: -2819060095032780455
+    second: Tex_2000_59
+  - first:
+      213: 6710963020526647794
+    second: Tex_2000_60
+  - first:
+      213: -3761982748000137451
+    second: Tex_2000_61
+  - first:
+      213: 2752447539999929829
+    second: Tex_2000_62
+  - first:
+      213: 7472843971600245585
+    second: Tex_2000_63
+  - first:
+      213: -7879710689109380537
+    second: Tex_2000_64
+  - first:
+      213: -1843985229046211445
+    second: Tex_2000_65
+  - first:
+      213: 5836660643430965336
+    second: Tex_2000_66
+  - first:
+      213: 9061490837408123244
+    second: Tex_2000_67
+  - first:
+      213: -1262067423531133393
+    second: Tex_2000_68
+  - first:
+      213: 6362211180165694299
+    second: Tex_2000_69
+  - first:
+      213: 4198862845539093227
+    second: Tex_2000_70
+  - first:
+      213: -1481306120034573797
+    second: Tex_2000_71
+  - first:
+      213: 9106003314771360921
+    second: Tex_2000_72
+  - first:
+      213: -3016518261389127849
+    second: Tex_2000_73
+  - first:
+      213: -3971433024532481867
+    second: Tex_2000_74
+  - first:
+      213: 125239608478830963
+    second: Tex_2000_75
+  - first:
+      213: 1776448102543516449
+    second: Tex_2000_76
+  - first:
+      213: -6451101248849835171
+    second: Tex_2000_77
+  - first:
+      213: -3383031945820953468
+    second: Tex_2000_78
+  - first:
+      213: -1660287725346128621
+    second: Tex_2000_79
+  - first:
+      213: 5265538269758958066
+    second: Tex_2000_80
+  - first:
+      213: -7766924876125097469
+    second: Tex_2000_81
+  - first:
+      213: 2688864674497540418
+    second: Tex_2000_82
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tex_2000_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1702
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8aa917e03a875a30800000000000000
+      internalID: 4203980719813929611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1686
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cc32877bdf6a930800000000000000
+      internalID: 4154286670732315781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1686
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b3b22e31a37f30800000000000000
+      internalID: 4572175334953431523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_3
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1702
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be40a56adbcb43f0800000000000000
+      internalID: -915413960371450189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_4
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1702
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ec6352086ea940800000000000000
+      internalID: 5309295369915262745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_5
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1686
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d432f2c84b40de7c0800000000000000
+      internalID: -4040568117188943027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_6
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1702
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6178a240a1ef38e0800000000000000
+      internalID: -1711401254948146838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_7
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1340
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55f42adc62fa8910800000000000000
+      internalID: 1840549947064513882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1340
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fedce33a6251d0b0800000000000000
+      internalID: -5705688636810535178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_9
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 1340
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3318be7fb727bf10800000000000000
+      internalID: 2285339039332045630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_10
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1340
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a806ce8d3ec7acf10800000000000000
+      internalID: 2290780678510108810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_11
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1324
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072ca6f4f222baaf0800000000000000
+      internalID: -384175756618841488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_12
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1340
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28565a9f6c25e8500800000000000000
+      internalID: 400348431427921282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_13
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1340
+        width: 245
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a521adfc7159f70800000000000000
+      internalID: 9193280395831040587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 962
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ababb101fadd33990800000000000000
+      internalID: -7407333218135065926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 978
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e432be5cbdcbf40800000000000000
+      internalID: 5745708867717910034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_16
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 978
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aeaadadaf39057f0800000000000000
+      internalID: -625837642581627232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_17
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 962
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05882b5a1b28ff80800000000000000
+      internalID: -8072654939863087859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_18
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 962
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71911aeb80e065d70800000000000000
+      internalID: 9031421533458864407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_19
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 978
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbde2874f28ee920800000000000000
+      internalID: 3021496386512149495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_20
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 978
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8c73491c9152a10800000000000000
+      internalID: 1883940338330486969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 616
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0bf2d6f4a997c40800000000000000
+      internalID: 5510605284989448391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_22
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 600
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a635e3ca6415e8ec0800000000000000
+      internalID: -3562820891224157334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_23
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 616
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c17992b68f2a0d50800000000000000
+      internalID: 6704223250862928329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_24
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 616
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cf7548aed1c4c30800000000000000
+      internalID: 4344880633585597584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_25
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 600
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e8bee77dd29baf0800000000000000
+      internalID: -380222289965511134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_26
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 616
+        width: 245
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0fcf3edfa7e776e0800000000000000
+      internalID: -1839747180223541494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_27
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 616
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec36bc1bdacd808b0800000000000000
+      internalID: -5185652332346776626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 254
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24df69fb0d90681a0800000000000000
+      internalID: -6807742994551734974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_29
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 254
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df11879ad1675740800000000000000
+      internalID: 5140685091139297241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_30
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 238
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc5abc222b85090800000000000000
+      internalID: -8045484871782118534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_31
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 254
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521243824d3b1d330800000000000000
+      internalID: 3733963289855795493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_32
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 254
+        width: 247
+        height: 327
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b2d7a5222552720800000000000000
+      internalID: 2820751049118001974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_33
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 238
+        width: 280
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fb09c51e8c35040800000000000000
+      internalID: 4635269311740559130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tex_2000_34
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 254
+        width: 244
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e33b1bdb3941b4e0800000000000000
+      internalID: -1967711040756304919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
