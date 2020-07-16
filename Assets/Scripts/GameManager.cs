@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
+using UnityEditorInternal;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,8 +20,9 @@ public class GameManager : MonoBehaviour
     public RectTransform commonDeck;
     public RectTransform commonHand;
     public GameObject[] allCards;
+    public Queue<GameObject> currentCards;
 
-    private int startingCardAmount = 10;
+    private readonly int startingCardAmount = 10;
     public Card selectedCard;
     #region Properties
     public Card[] CardsInCommonDeck
@@ -36,7 +38,9 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Instance = this;
-        allCards = Resources.LoadAll<GameObject>("Prefabs/Cards");
+        allCards = Resources.LoadAll<GameObject>("Prefabs/Cards").Where(x => x.GetComponent<Card>().isRare == false).ToArray();
+        allCards.Shuffle();
+        currentCards = new Queue<GameObject>(allCards);
 
         players = new PlayerGameInstance[2];
         players[0] = new PlayerGameInstance("Sennek");
@@ -62,18 +66,26 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator PlayerTurn(PlayerGameInstance player)
     {
+
+        currentStage = Stage.PlayerOneTurn;
+
         currentPlayer = player;
-        int playerIndex = GetPlayerNo(currentPlayer);
+        int playerIndex = GetPlayerIndex(currentPlayer);
 
         if (playerIndex == 0)
         {
             SetPlayerReadingState(true);
+
             while (currentStage == Stage.PlayerOneTurn)
             {
                 yield return null;
             }
 
             SetPlayerReadingState(false);
+        }
+        else
+        {
+            yield return StartCoroutine(AIPlayTurn());
         }
 
         currentStage = Stage.PlayerTwoTurn;
@@ -105,10 +117,15 @@ public class GameManager : MonoBehaviour
     }
     public IEnumerator PickCards(Card card1, Card card2)
     {
-        int playerIndex = GetPlayerNo(currentPlayer);
+        DehighlightCommonCards();
 
-        float targetX = Random.Range(-2, 2);
-        float targetY = Random.Range(-2, 2);
+        card1.blockOnMouseOver = true;
+        card2.blockOnMouseOver = true;
+
+        int playerIndex = GetPlayerIndex(currentPlayer);
+
+        float targetX = Random.Range(-5, 5);
+        float targetY = Random.Range(-5, 5);
 
         foreach (Card card in new Card[2] { card1, card2 })
         {
@@ -116,9 +133,13 @@ public class GameManager : MonoBehaviour
             card.transform.parent = playerUsedDeck[playerIndex];
             card.transform.SetAsFirstSibling();
 
-            card.gameObject.LeanMoveLocal(new Vector3(targetX, targetY), 1);
+            card.gameObject.LeanMoveLocal(new Vector3(targetX, targetY), 0.2f);
         }
-        yield return new WaitForSeconds(1);
+
+        StartCoroutine(Manager.ResetCardsInHand(playerHand[GetPlayerIndex(currentPlayer)]));
+        StartCoroutine(Manager.ResetCardsInHand(commonHand));
+
+        yield return new WaitForSeconds(0.4f);
         currentStage = Stage.AddCards;
     }
 
@@ -134,7 +155,7 @@ public class GameManager : MonoBehaviour
     }
     #endregion
     #region MiscMethods
-    public int GetPlayerNo(PlayerGameInstance player)
+    public int GetPlayerIndex(PlayerGameInstance player)
     {
         return Array.FindIndex(players, x => x == player);
     }
@@ -142,17 +163,20 @@ public class GameManager : MonoBehaviour
     {
         foreach (Card card in CardsInCommonDeck)
         {
-            if (card.cardType == type)
+            if (card.cardType == type && card.cardState < 2)
             {
                 card.SetCardState(state);
             }
         }
     }
-    public void DehighlightCommonCards()
+    public void DehighlightCommonCards(int maxState = 2)
     {
         foreach (Card card in CardsInCommonDeck)
         {
-            card.SetCardState(0);
+            if (card.cardState <= maxState)
+            {
+                card.SetCardState(0);
+            }
         }
     }
     public void SetPlayerReadingState(bool active)
@@ -161,6 +185,15 @@ public class GameManager : MonoBehaviour
         {
             card.SetInteractable(active);
         }
+    }
+    public void CurrentCardSet(Card card)
+    {
+        selectedCard?.SetSelected(false);
+        card.SetSelected(true);
+    }
+    public void CurrentCardDeselect()
+    {
+        selectedCard.SetSelected(false);
     }
     #endregion
 }
@@ -175,17 +208,31 @@ public static class HelperFunc
         int randomInt = Random.Range(0, source.Count);
         return source[randomInt];
     }
+    private static System.Random rng = new System.Random();
+
+    public static void Shuffle<T>(this IList<T> list)
+    {
+        int n = list.Count;
+        while (n > 1)
+        {
+            n--;
+            int k = rng.Next(n + 1);
+            T value = list[k];
+            list[k] = list[n];
+            list[n] = value;
+        }
+    }
 }
 
 public static class Manager
 {
     public static IEnumerator DealCards(PlayerGameInstance player, int amount)
     {
-        int playerIndex = GameManager.Instance.GetPlayerNo(player);
+        int playerIndex = GameManager.Instance.GetPlayerIndex(player);
 
         for (int i = 0; i < amount; i++)
         {
-            GameObject card = GameObject.Instantiate(GameManager.Instance.allCards.RandomOrDefault(), GameManager.Instance.commonDeck);
+            GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
             Card cardScript = card.GetComponent<Card>();
 
 
@@ -206,7 +253,7 @@ public static class Manager
     {
         for (int i = 0; i < amount; i++)
         {
-            GameObject card = GameObject.Instantiate(GameManager.Instance.allCards.RandomOrDefault(), GameManager.Instance.commonDeck);
+            GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
             Card cardScript = card.GetComponent<Card>();
 
             card.transform.parent = GameManager.Instance.commonHand;
@@ -216,6 +263,8 @@ public static class Manager
             card.transform.LeanRotateZ(Random.Range(-5, 5), 0);
 
             cardScript.SetCardState(0);
+            cardScript.SetInteractable(false);
+            cardScript.SetTargetable(true);
 
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
             float targetY = Random.Range(-5, 5);
@@ -229,7 +278,6 @@ public static class Manager
         for (int i = 0; i < hand.transform.childCount; i++)
         {
             GameObject card = hand.GetChild(i).gameObject;
-            card.transform.parent = GameManager.Instance.commonHand;
             card.transform.SetAsFirstSibling();
 
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * i;

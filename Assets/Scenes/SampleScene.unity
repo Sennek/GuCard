@@ -183,7 +183,7 @@ RectTransform:
   m_GameObject: {fileID: 56917939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children:
   - {fileID: 3000349370102396640}
   - {fileID: 1147323712}
@@ -324,7 +324,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &265332101
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,7 +866,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &515661759
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1146,7 @@ RectTransform:
   m_GameObject: {fileID: 1015582565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children:
   - {fileID: 1464267187}
   - {fileID: 1311026163}
@@ -1274,7 +1284,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &1147323711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1416,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &1192500661
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,7 +1618,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &1427944342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1668,7 @@ MonoBehaviour:
   commonDeck: {fileID: 56917940}
   commonHand: {fileID: 1213194953}
   allCards: []
+  selectedCard: {fileID: 0}
 --- !u!114 &1427944344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1852,7 +1878,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!1 &1727589393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1974,7 +2005,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!61 &3000349370102396644
 BoxCollider2D:
   m_ObjectHideFlags: 0

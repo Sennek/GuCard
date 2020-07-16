@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 4
   cardType: 2
   cardCombination: []
+  isRare: 1
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &3332674130178391881
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 using Image = UnityEngine.UI.Image;
 
 [Serializable]
-public class Card : MonoBehaviour, IPointerClickHandler
+public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [Tooltip("0=inactive; 1=highlighted; 2=selected")]
     public Sprite[] cardSprites;
@@ -19,14 +19,15 @@ public class Card : MonoBehaviour, IPointerClickHandler
     public CardType cardType;
     public CardCombination[] cardCombination;
     private Image image;
-    private bool isRare;
-    private bool isSelected;
-    private bool isTargetable;
+    public bool isRare;
+    [SerializeField] private bool isSelected;
+    [SerializeField] private bool isTargetable;
     private Vector3 originalPos;
     private LTDescr movementAnimation;
 
-    public bool isInteractable = false;
-
+    public bool isInteractable;
+    public bool blockOnMouseOver;
+    public int cardState;
     private void Awake()
     {
         image = GetComponent<Image>();
@@ -37,6 +38,7 @@ public class Card : MonoBehaviour, IPointerClickHandler
     }
     public void SetCardState(int state)
     {
+        cardState = state;
         if (state < 0)
         {
             image.sprite = cardSpriteBack;
@@ -44,7 +46,6 @@ public class Card : MonoBehaviour, IPointerClickHandler
             return;
         }
 
-        SetInteractable(true);
         image.sprite = cardSprites[state];
     }
     public void SetInteractable(bool interactable)
@@ -61,11 +62,13 @@ public class Card : MonoBehaviour, IPointerClickHandler
     {
         isSelected = selected;
 
-        if (selected)
-            GameManager.Instance.selectedCard = this;
-        else
-            GameManager.Instance.selectedCard = null;
+        if (!selected)
+        {
+            GameManager.Instance.DehighlightCommonCards();
+        }
 
+        SetCardState(selected ? 2 : 0);
+        GameManager.Instance.selectedCard = selected ? this : null;
     }
     public void OnPointerClick(PointerEventData data)
     {
@@ -75,11 +78,12 @@ public class Card : MonoBehaviour, IPointerClickHandler
             {
                 if (!isSelected)
                 {
-                    SetCardState(2);
+                    GameManager.Instance.CurrentCardSet(this);
                     GameManager.Instance.HighlightCommonCards(cardType, 2);
                 }
                 else
                 {
+                    GameManager.Instance.CurrentCardDeselect();
                     GameManager.Instance.DehighlightCommonCards();
                 }
             }
@@ -95,28 +99,28 @@ public class Card : MonoBehaviour, IPointerClickHandler
             }
         }
     }
-    private void OnMouseEnter()
+    public void OnPointerEnter(PointerEventData data)
     {
-        if (isInteractable)
+        if (isInteractable && !blockOnMouseOver)
         {
             if (movementAnimation != null)
             {
-                LeanTween.cancel(movementAnimation.id);
+                LeanTween.cancel(gameObject);
             }
             GameManager.Instance.HighlightCommonCards(cardType, 1);
-            movementAnimation = LeanTween.moveLocalY(gameObject, 30, 0.5f);
+            movementAnimation = LeanTween.moveLocalY(gameObject, 30, 0.2f);
         }
     }
-    private void OnMouseExit()
+    public void OnPointerExit(PointerEventData data)
     {
-        if (isInteractable)
+        if (isInteractable && !blockOnMouseOver && !isSelected)
         {
             if (movementAnimation != null)
             {
-                LeanTween.cancel(movementAnimation.id);
+                LeanTween.cancel(gameObject);
             }
-            GameManager.Instance.DehighlightCommonCards();
-            movementAnimation = LeanTween.moveLocalY(gameObject, originalPos.y, 0.5f);
+            GameManager.Instance.DehighlightCommonCards(1);
+            movementAnimation = LeanTween.moveLocalY(gameObject, originalPos.y, 0.2f);
         }
     }
 }

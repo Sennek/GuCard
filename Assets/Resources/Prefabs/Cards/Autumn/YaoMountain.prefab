@@ -61,9 +61,14 @@ MonoBehaviour:
   cardDescription: Alas, how the time flies through centuries of changes! The moonlight
     shines yet on the same defying face.
   cardPoints: 2
-  cardType: 0
+  cardType: 2
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &4402321150110377669
 CanvasRenderer:
   m_ObjectHideFlags: 0
