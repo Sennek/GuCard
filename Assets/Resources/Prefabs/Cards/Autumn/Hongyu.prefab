@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6420930480349798840}
   - component: {fileID: 6420930480349798847}
   - component: {fileID: 6420930480349798846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Hongyu
   m_TagString: Untagged
   m_Icon: {fileID: 0}

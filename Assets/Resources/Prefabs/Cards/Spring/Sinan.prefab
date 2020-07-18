@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6703429086795045958}
   - component: {fileID: 8883741532129890412}
   - component: {fileID: 2122845460440084982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sinan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &6703429086795045958
 CanvasRenderer:
   m_ObjectHideFlags: 0

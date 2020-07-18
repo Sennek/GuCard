@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 346877063998759377}
   - component: {fileID: 346877063998759382}
   - component: {fileID: 346877063998759383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: JadeAltar
   m_TagString: Untagged
   m_Icon: {fileID: 0}

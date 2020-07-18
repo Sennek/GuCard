@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3613556964550638561}
   - component: {fileID: 3613556964550638566}
   - component: {fileID: 3613556964550638567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: QingxueR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 4
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &3613556964550638561
 CanvasRenderer:
   m_ObjectHideFlags: 0

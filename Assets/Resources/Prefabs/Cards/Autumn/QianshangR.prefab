@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1280192703107681845}
   - component: {fileID: 1280192703107681844}
   - component: {fileID: 1280192703107681851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: QianshangR
   m_TagString: Untagged
   m_Icon: {fileID: 0}

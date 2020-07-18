@@ -47,6 +47,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         }
 
         image.sprite = cardSprites[state];
+        image.SetNativeSize();
     }
     public void SetInteractable(bool interactable)
 
@@ -103,6 +104,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         if (isInteractable && !blockOnMouseOver)
         {
+            GameManager.Instance.ShowCardName(this);
             if (movementAnimation != null)
             {
                 LeanTween.cancel(gameObject);
@@ -115,6 +117,8 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         if (isInteractable && !blockOnMouseOver && !isSelected)
         {
+            GameManager.Instance.ShowCardName(null);
+
             if (movementAnimation != null)
             {
                 LeanTween.cancel(gameObject);

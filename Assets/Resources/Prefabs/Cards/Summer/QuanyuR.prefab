@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8476519133329103231}
   - component: {fileID: 8351020639305527373}
   - component: {fileID: 9018780982698963646}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: QuanyuR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 4
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &8476519133329103231
 CanvasRenderer:
   m_ObjectHideFlags: 0

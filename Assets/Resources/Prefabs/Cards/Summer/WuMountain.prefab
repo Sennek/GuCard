@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6793021932754400586}
   - component: {fileID: 6793021932754400585}
   - component: {fileID: 6793021932754400584}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WuMountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &6793021932754400586
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3037682119354494560}
   - component: {fileID: 3037682119354494561}
   - component: {fileID: 3037682119354494562}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Yuqi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &3037682119354494560
 CanvasRenderer:
   m_ObjectHideFlags: 0

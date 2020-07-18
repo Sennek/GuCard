@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 793749374066771503}
   - component: {fileID: 793749374066771496}
   - component: {fileID: 793749374066771497}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Brilliance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &793749374066771503
 CanvasRenderer:
   m_ObjectHideFlags: 0

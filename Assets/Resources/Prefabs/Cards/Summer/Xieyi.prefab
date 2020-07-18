@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6478416790232313836}
   - component: {fileID: 4664110636432225072}
   - component: {fileID: 7747780389647299044}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Xieyi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &6478416790232313836
 CanvasRenderer:
   m_ObjectHideFlags: 0

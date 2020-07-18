@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4536454631614364484}
   - component: {fileID: 4536454631614364483}
   - component: {fileID: 4536454631614364482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LonelyFlame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 1
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &4536454631614364484
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7945040375847875053}
   - component: {fileID: 7945040375847875050}
   - component: {fileID: 7945040375847875051}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mysticalabe
   m_TagString: Untagged
   m_Icon: {fileID: 0}

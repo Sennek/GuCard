@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3616374820888851040}
   - component: {fileID: 3616374820888851041}
   - component: {fileID: 3616374820888851102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: XunfangR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 4
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &3616374820888851040
 CanvasRenderer:
   m_ObjectHideFlags: 0

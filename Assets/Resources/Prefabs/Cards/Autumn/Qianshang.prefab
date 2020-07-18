@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3991037786769928561}
   - component: {fileID: 3991037786769928566}
   - component: {fileID: 3991037786769928567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Qianshang
   m_TagString: Untagged
   m_Icon: {fileID: 0}

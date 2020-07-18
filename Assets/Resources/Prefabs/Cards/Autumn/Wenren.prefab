@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6081133380736354659}
   - component: {fileID: 6081133380736354660}
   - component: {fileID: 6081133380736354661}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wenren
   m_TagString: Untagged
   m_Icon: {fileID: 0}

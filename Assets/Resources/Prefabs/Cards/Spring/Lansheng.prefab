@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6311701287870272143}
   - component: {fileID: 256721785215405926}
   - component: {fileID: 1690013823789251733}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lansheng
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &6311701287870272143
 CanvasRenderer:
   m_ObjectHideFlags: 0

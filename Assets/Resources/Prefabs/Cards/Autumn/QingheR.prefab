@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9118237015503177395}
   - component: {fileID: 9118237015503177396}
   - component: {fileID: 9118237015503177397}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: QingheR
   m_TagString: Untagged
   m_Icon: {fileID: 0}

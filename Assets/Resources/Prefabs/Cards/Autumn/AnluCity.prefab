@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8404515605615142513}
   - component: {fileID: 8404515605615142518}
   - component: {fileID: 8404515605615142519}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AnluCity
   m_TagString: Untagged
   m_Icon: {fileID: 0}

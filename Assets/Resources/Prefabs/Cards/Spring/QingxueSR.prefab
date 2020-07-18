@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8281856379004684305}
   - component: {fileID: 8281856379004684310}
   - component: {fileID: 8281856379004684311}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: QingxueSR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 6
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &8281856379004684305
 CanvasRenderer:
   m_ObjectHideFlags: 0

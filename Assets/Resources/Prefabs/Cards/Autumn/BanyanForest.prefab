@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7611329559236375648}
   - component: {fileID: 7611329559236375655}
   - component: {fileID: 7611329559236375654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BanyanForest
   m_TagString: Untagged
   m_Icon: {fileID: 0}

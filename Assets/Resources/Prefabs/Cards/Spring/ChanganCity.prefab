@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3715712200379993533}
   - component: {fileID: 3244355949218648336}
   - component: {fileID: 6006568216721437643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChanganCity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,7 +63,12 @@ MonoBehaviour:
   cardPoints: 2
   cardType: 0
   cardCombination: []
+  isRare: 0
+  isSelected: 0
+  isTargetable: 0
   isInteractable: 0
+  blockOnMouseOver: 0
+  cardState: 0
 --- !u!222 &3715712200379993533
 CanvasRenderer:
   m_ObjectHideFlags: 0

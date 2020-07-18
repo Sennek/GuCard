@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4925807099998191543}
   - component: {fileID: 4925807099998191536}
   - component: {fileID: 4925807099998191537}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Kirin
   m_TagString: Untagged
   m_Icon: {fileID: 0}

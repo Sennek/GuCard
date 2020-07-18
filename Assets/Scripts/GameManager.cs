@@ -7,6 +7,8 @@ using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 using UnityEditorInternal;
+using TMPro;
+using UnityEngine.EventSystems;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,8 +21,16 @@ public class GameManager : MonoBehaviour
     public RectTransform[] playerUsedDeck;
     public RectTransform commonDeck;
     public RectTransform commonHand;
+    public RectTransform cardNameContainer;
+    public RectTransform gameOverScreen;
+    public TextMeshProUGUI gameOverText;
+    public TextMeshProUGUI cardNameText;
+    public TextMeshProUGUI cardComboText;
+    public TextMeshProUGUI[] playerPts;
     public GameObject[] allCards;
     public Queue<GameObject> currentCards;
+
+
 
     private readonly int startingCardAmount = 10;
     public Card selectedCard;
@@ -46,6 +56,9 @@ public class GameManager : MonoBehaviour
         players[0] = new PlayerGameInstance("Sennek");
         players[1] = new PlayerGameInstance("AI");
 
+        playerPts[0].text = playerPts[1].text = "0";
+
+
         StartCoroutine(GameStages());
     }
     #region Game Stages
@@ -54,16 +67,16 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(DeckStartingAnimation());
         yield return StartCoroutine(ShuffleCards());
 
-        while (currentStage != Stage.GameOver)
+        while (playerHand[0].childCount != 0 && playerHand[0].childCount != 0)
         {
             foreach (PlayerGameInstance player in players)
             {
                 yield return StartCoroutine(PlayerTurn(player));
-                yield return StartCoroutine(Manager.DealCardsToCommonHand(1));
+                yield return StartCoroutine(Manager.DealCards(commonHand, 1));
             }
         }
+        yield return StartCoroutine(GameOver());
     }
-
     private IEnumerator PlayerTurn(PlayerGameInstance player)
     {
 
@@ -90,7 +103,6 @@ public class GameManager : MonoBehaviour
 
         currentStage = Stage.PlayerTwoTurn;
     }
-
     private IEnumerator AIPlayTurn()
     {
         yield return new WaitForSeconds(Random.Range(1, 2));
@@ -106,12 +118,11 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-
     private IEnumerator ShuffleCards()
     {
-        yield return StartCoroutine(Manager.DealCards(players[0], startingCardAmount));
-        yield return StartCoroutine(Manager.DealCards(players[1], startingCardAmount));
-        yield return StartCoroutine(Manager.DealCardsToCommonHand(startingCardAmount - 2));
+        yield return StartCoroutine(Manager.DealCards(playerHand[0], startingCardAmount));
+        yield return StartCoroutine(Manager.DealCards(playerHand[1], startingCardAmount));
+        yield return StartCoroutine(Manager.DealCards(commonHand, 8));
         yield return new WaitForSeconds(1);
         currentStage = Stage.PlayerOneTurn;
     }
@@ -138,11 +149,17 @@ public class GameManager : MonoBehaviour
 
         StartCoroutine(Manager.ResetCardsInHand(playerHand[GetPlayerIndex(currentPlayer)]));
         StartCoroutine(Manager.ResetCardsInHand(commonHand));
+        AddCurrentPlayerPts(card1.cardPoints + card2.cardPoints);
 
         yield return new WaitForSeconds(0.4f);
         currentStage = Stage.AddCards;
     }
-
+    public IEnumerator GameOver()
+    {
+        PlayerGameInstance playerWon = players[0].points > players[1].points ? players[0] : players[1];
+        LeanTween.scale(gameOverScreen, new Vector3(4, 4), 0.3f).setOnComplete(() => { gameOverText.SetText($"{playerWon.playerName} Won!"); });
+        yield return new WaitForSeconds(0.3f);
+    }
     #endregion
     #region UI animations
     private IEnumerator DeckStartingAnimation()
@@ -153,8 +170,29 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
     }
+
+    public void ShowCardName(Card card)
+    {
+        if (card != null)
+        {
+            cardNameText.SetText($"{card.cardName} {card.cardPoints}pts");
+            //cardNameText.SetText(card.cardName); show all cards that can be combined with it
+            LeanTween.cancel(cardNameContainer);
+            LeanTween.value(1150, 800, 0.5f).setOnUpdate((float val) => { cardNameContainer.localPosition = new Vector3(val, cardNameContainer.localPosition.y); });
+        }
+        else
+        {
+            LeanTween.cancel(cardNameContainer);
+            LeanTween.value(800, 1150, 0.5f).setOnUpdate((float val) => { cardNameContainer.localPosition = new Vector3(val, cardNameContainer.localPosition.y); });
+        }
+    }
     #endregion
     #region MiscMethods
+    private void AddCurrentPlayerPts(int points)
+    {
+        currentPlayer.points += points;
+        playerPts[GetPlayerIndex(currentPlayer)].SetText($"{currentPlayer.points}");
+    }
     public int GetPlayerIndex(PlayerGameInstance player)
     {
         return Array.FindIndex(players, x => x == player);
@@ -226,21 +264,24 @@ public static class HelperFunc
 
 public static class Manager
 {
-    public static IEnumerator DealCards(PlayerGameInstance player, int amount)
+    public static IEnumerator DealCards(RectTransform target, int amount)
     {
-        int playerIndex = GameManager.Instance.GetPlayerIndex(player);
-
         for (int i = 0; i < amount; i++)
         {
             GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
             Card cardScript = card.GetComponent<Card>();
 
 
-            card.transform.parent = GameManager.Instance.playerHand[playerIndex];
+            card.transform.parent = target;
             card.transform.SetAsFirstSibling();
             card.LeanScale(new Vector3(0.8f, 0.8f, 0.8f), 0);
 
-            cardScript.SetCardState(playerIndex == 0 ? 0 : -1);
+            cardScript.SetCardState(target.name == "OpponentHand" ? -1 : 0);
+
+            if (target.name == "CommonHand")
+            {
+                cardScript.SetTargetable(true);
+            }
 
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
             float targetY = Random.Range(-5, 5);
@@ -249,36 +290,11 @@ public static class Manager
             yield return new WaitForSeconds(0.15f);
         }
     }
-    public static IEnumerator DealCardsToCommonHand(int amount)
-    {
-        for (int i = 0; i < amount; i++)
-        {
-            GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
-            Card cardScript = card.GetComponent<Card>();
-
-            card.transform.parent = GameManager.Instance.commonHand;
-            card.transform.SetAsFirstSibling();
-            card.LeanScale(new Vector3(0.8f, 0.8f, 0.8f), 0);
-
-            card.transform.LeanRotateZ(Random.Range(-5, 5), 0);
-
-            cardScript.SetCardState(0);
-            cardScript.SetInteractable(false);
-            cardScript.SetTargetable(true);
-
-            float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
-            float targetY = Random.Range(-5, 5);
-
-            LeanTween.moveLocal(card, new Vector3(targetX, targetY), 0.15f);
-            yield return new WaitForSeconds(0.15f);
-        }
-    }
     public static IEnumerator ResetCardsInHand(RectTransform hand)
     {
         for (int i = 0; i < hand.transform.childCount; i++)
         {
             GameObject card = hand.GetChild(i).gameObject;
-            card.transform.SetAsFirstSibling();
 
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * i;
 
@@ -301,6 +317,7 @@ public class PlayerGameInstance
 {
     public string playerName;
     public List<Card> rareCards;
+    public int points;
 
     public PlayerGameInstance(Player source)
     {

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3332674130178391881}
   - component: {fileID: 3332674130178391990}
   - component: {fileID: 3332674130178391991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ShaogongR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
