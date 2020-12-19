@@ -57,12 +57,11 @@ MonoBehaviour:
   - {fileID: -4310059595023292075, guid: 16c81c5634d167d4384b4dd4385a3f45, type: 3}
   cardSpriteBack: {fileID: 8781393594858656492, guid: f0888401072a3be4699e593627ea6eb1,
     type: 3}
-  cardName: Fenglai
+  cardName: Penglai
   cardDescription: A melody of zither through centuries of dreams; A glimpse of vicisittudes,
     descending upon the realms.
   cardPoints: 2
   cardType: 0
-  cardCombination: []
   isRare: 0
   isSelected: 0
   isTargetable: 0

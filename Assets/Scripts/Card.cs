@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -17,22 +18,21 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     public string cardDescription;
     public int cardPoints;
     public CardType cardType;
-    public CardCombination[] cardCombination;
-    private Image image;
     public bool isRare;
     [SerializeField] private bool isSelected;
     [SerializeField] private bool isTargetable;
+    private Image image;
     private Vector3 originalPos;
     private LTDescr movementAnimation;
 
     public bool isInteractable;
     public bool blockOnMouseOver;
-    public int cardState;
+    [HideInInspector] public int cardState;
     private void Awake()
     {
         image = GetComponent<Image>();
     }
-    public void Init()
+    public void InitLocalPost()
     {
         originalPos = transform.localPosition;
     }
@@ -77,6 +77,16 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         {
             if (data.button == PointerEventData.InputButton.Left)
             {
+                SoundManager.Play(SoundManager.Instance.cardSelect);
+
+                Card[] matchingCards = GameManager.Instance.CardsInCommonDeck.Where(x => x.cardType == cardType).ToArray();
+
+                if (matchingCards.Length == 0)
+                {
+                    GameManager.Instance.NoMatchingCardsLeft(this);
+                    return;
+                }
+
                 if (!isSelected)
                 {
                     GameManager.Instance.CurrentCardSet(this);

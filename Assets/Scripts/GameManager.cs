@@ -42,6 +42,10 @@ public class GameManager : MonoBehaviour
             return commonHand.GetComponentsInChildren<Card>();
         }
     }
+    RectTransform CurrentPlayerHand { get
+        {
+            return playerHand[GetPlayerIndex(currentPlayer)];
+        } }
     #endregion
     private Stage currentStage;
     private enum Stage { PlayerOneTurn, AddCards, PlayerTwoTurn, GameOver };
@@ -106,14 +110,13 @@ public class GameManager : MonoBehaviour
     private IEnumerator AIPlayTurn()
     {
         yield return new WaitForSeconds(Random.Range(1, 2));
-        Card[] commonHand = CardsInCommonDeck;
         foreach (Card card in playerHand[1].GetComponentsInChildren<Card>())
         {
-            int targetIndex = Array.FindIndex(commonHand, x => x.cardType == card.cardType);
+            int targetIndex = Array.FindIndex(CardsInCommonDeck, x => x.cardType == card.cardType);
 
             if (targetIndex >= 0)
             {
-                yield return StartCoroutine(PickCards(card, commonHand[targetIndex]));
+                yield return StartCoroutine(PickCards(card, CardsInCommonDeck[targetIndex]));
                 break;
             }
         }
@@ -128,6 +131,7 @@ public class GameManager : MonoBehaviour
     }
     public IEnumerator PickCards(Card card1, Card card2)
     {
+        SoundManager.Play(SoundManager.Instance.cardPick);
         DehighlightCommonCards();
 
         card1.blockOnMouseOver = true;
@@ -233,6 +237,13 @@ public class GameManager : MonoBehaviour
     {
         selectedCard.SetSelected(false);
     }
+    public void NoMatchingCardsLeft(Card cardToDrop)
+    {
+        Manager.TransferCardToDeck(cardToDrop, commonHand);
+        Manager.DealCards(CurrentPlayerHand, 1);
+        Manager.ResetCardsInHand(commonHand);
+        Manager.ResetCardsInHand(commonHand);
+    }
     #endregion
 }
 
@@ -264,13 +275,35 @@ public static class HelperFunc
 
 public static class Manager
 {
+    public static void TransferCardToDeck(Card card, RectTransform deck)
+    {
+        SoundManager.Play(SoundManager.Instance.cardFlip);
+
+        card.transform.parent = deck;
+        card.transform.SetAsFirstSibling();
+
+        card.SetCardState(0);
+
+        if (deck.name == "CommonHand")
+        {
+            card.SetTargetable(true);
+            card.SetInteractable(false);
+        }
+
+        float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
+        float targetY = Random.Range(-5, 5);
+
+        LeanTween.moveLocal(card.gameObject, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { card.InitLocalPost(); });
+    }
+
     public static IEnumerator DealCards(RectTransform target, int amount)
     {
         for (int i = 0; i < amount; i++)
         {
+            SoundManager.Play(SoundManager.Instance.cardFlip); 
+
             GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
             Card cardScript = card.GetComponent<Card>();
-
 
             card.transform.parent = target;
             card.transform.SetAsFirstSibling();
@@ -286,7 +319,7 @@ public static class Manager
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
             float targetY = Random.Range(-5, 5);
 
-            LeanTween.moveLocal(card, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { cardScript.Init(); });
+            LeanTween.moveLocal(card, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { cardScript.InitLocalPost(); });
             yield return new WaitForSeconds(0.15f);
         }
     }
@@ -296,7 +329,7 @@ public static class Manager
         {
             GameObject card = hand.GetChild(i).gameObject;
 
-            float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * i;
+            float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * (hand.transform.childCount - i) * card.transform.localScale.x;
 
             LeanTween.moveLocalX(card, targetX, 0);
         }

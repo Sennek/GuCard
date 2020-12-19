@@ -57,12 +57,11 @@ MonoBehaviour:
   - {fileID: 3105567637208587419, guid: ddb7a17003118444d8c2b53563c84d93, type: 3}
   cardSpriteBack: {fileID: 8781393594858656492, guid: f0888401072a3be4699e593627ea6eb1,
     type: 3}
-  cardName: Qinchuan town
+  cardName: Qinchuan Town
   cardDescription: They met in vernal drizzle under an apricot tree; Two hearts clung
     to each other in the southern spring.
   cardPoints: 2
   cardType: 0
-  cardCombination: []
   isRare: 0
   isSelected: 0
   isTargetable: 0
