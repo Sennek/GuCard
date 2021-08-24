@@ -30,22 +30,11 @@ public class GameManager : MonoBehaviour
     public GameObject[] allCards;
     public Queue<GameObject> currentCards;
 
-
-
     private readonly int startingCardAmount = 10;
     public Card selectedCard;
     #region Properties
-    public Card[] CardsInCommonDeck
-    {
-        get
-        {
-            return commonHand.GetComponentsInChildren<Card>();
-        }
-    }
-    RectTransform CurrentPlayerHand { get
-        {
-            return playerHand[GetPlayerIndex(currentPlayer)];
-        } }
+    public Card[] CardsInCommonDeck => commonHand.GetComponentsInChildren<Card>();
+    RectTransform CurrentPlayerHand => playerHand[GetPlayerIndex(currentPlayer)];
     #endregion
     private Stage currentStage;
     private enum Stage { PlayerOneTurn, AddCards, PlayerTwoTurn, GameOver };
@@ -300,7 +289,7 @@ public static class Manager
     {
         for (int i = 0; i < amount; i++)
         {
-            SoundManager.Play(SoundManager.Instance.cardFlip); 
+            SoundManager.Play(SoundManager.Instance.cardFlip);
 
             GameObject card = GameObject.Instantiate(GameManager.Instance.currentCards.Dequeue(), GameManager.Instance.commonDeck);
             Card cardScript = card.GetComponent<Card>();

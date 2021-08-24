@@ -5,9 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
-using Image = UnityEngine.UI.Image;
-
+using Sirenix.OdinInspector;
 [Serializable]
 public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
@@ -15,7 +13,7 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     public Sprite[] cardSprites;
     public Sprite cardSpriteBack;
     public string cardName;
-    public string cardDescription;
+    [TextArea] public string cardDescription;
     public int cardPoints;
     public CardType cardType;
     public bool isRare;
