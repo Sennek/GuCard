@@ -26,4 +26,5 @@ public class CardCombination
     public string CombinationName;
     public string[] CombinationCards;
     public int CombinationPoints;
+    public bool hasBeenUnlockedOnce;
 }

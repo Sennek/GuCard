@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{CC28A87A-FF07-9F13-C256-848A1870877C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D1131941-76E3-5C2B-A115-095C4DD4A898}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{47B89769-F706-AEC1-81FB-BC2D0C392AA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{D1131941-76E3-5C2B-A115-095C4DD4A898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,14 +23,14 @@ Global
 		{CC28A87A-FF07-9F13-C256-848A1870877C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC28A87A-FF07-9F13-C256-848A1870877C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC28A87A-FF07-9F13-C256-848A1870877C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Release|Any CPU.Build.0 = Release|Any CPU
 		{47B89769-F706-AEC1-81FB-BC2D0C392AA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{47B89769-F706-AEC1-81FB-BC2D0C392AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47B89769-F706-AEC1-81FB-BC2D0C392AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47B89769-F706-AEC1-81FB-BC2D0C392AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1131941-76E3-5C2B-A115-095C4DD4A898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

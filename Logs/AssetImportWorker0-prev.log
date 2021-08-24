@@ -1,0 +1,1044 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19041.1165; Version 2004; 64bit' Language: 'en' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GitHub/GuCard/GuCard
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65450
+Successfully changed project path to: D:/GitHub/GuCard/GuCard
+D:/GitHub/GuCard/GuCard
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/GuCard/GuCard/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002493 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.635 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1880 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 24.411500 ms (FindLiveObjects: 0.287800 ms CreateObjectMapping: 0.072400 ms MarkObjects: 23.930100 ms  DeleteObjects: 0.119200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Resources/Prefabs/Cards
+  artifactKey: Guid(5dfcc048373159f46a9821ea1f2d1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards using Guid(5dfcc048373159f46a9821ea1f2d1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569f6ab474ef1999d29d79fe57aea9ce') in 0.005559 seconds
+  Import took 0.009713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.811784 seconds.
+  path: Assets/Resources/Prefabs/Cards
+  artifactKey: Guid(5dfcc048373159f46a9821ea1f2d1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards using Guid(5dfcc048373159f46a9821ea1f2d1fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569f6ab474ef1999d29d79fe57aea9ce') in 0.002340 seconds
+  Import took 0.007482 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.513 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.4 MB.
+System memory in use after: 89.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 25.381100 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.058800 ms MarkObjects: 24.988000 ms  DeleteObjects: 0.050800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 308.411660 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_2001.png
+  artifactKey: Guid(34da902b111dee84b969d57e05c4c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_2001.png using Guid(34da902b111dee84b969d57e05c4c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2dde30bf99664c05d6afdfde88eee7') in 0.308422 seconds
+  Import took 0.312246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/Sprites/Cards/UI1_01.png
+  artifactKey: Guid(e7c967654aadc0045878bf07935f2d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/UI1_01.png using Guid(e7c967654aadc0045878bf07935f2d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ba7cecd0834c4a5c562bd65ba75876') in 0.010402 seconds
+  Import took 0.013618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_2001.png
+  artifactKey: Guid(34da902b111dee84b969d57e05c4c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_2001.png using Guid(34da902b111dee84b969d57e05c4c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2dde30bf99664c05d6afdfde88eee7') in 0.166573 seconds
+  Import took 0.170731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_2003.png
+  artifactKey: Guid(8878ae91ddc24294eb7c33ecdaa9c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_2003.png using Guid(8878ae91ddc24294eb7c33ecdaa9c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3606a6d32db9d729e721e5fd94d85e6') in 0.158138 seconds
+  Import took 0.162349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_2003.png
+  artifactKey: Guid(8878ae91ddc24294eb7c33ecdaa9c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_2003.png using Guid(8878ae91ddc24294eb7c33ecdaa9c9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3606a6d32db9d729e721e5fd94d85e6') in 0.161222 seconds
+  Import took 0.165059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.899342 seconds.
+  path: Assets/Resources/Sprites/Cards
+  artifactKey: Guid(3a871d0631f9fc34b9d85e46f1b71048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards using Guid(3a871d0631f9fc34b9d85e46f1b71048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae43b10095b3bdd57ea2ce63d16e92e') in 0.001450 seconds
+  Import took 0.004617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 211.603672 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_0077.png
+  artifactKey: Guid(83baa9838cfcbcf4abe2187c09114c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_0077.png using Guid(83baa9838cfcbcf4abe2187c09114c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e603a17b0383fdcf96aea189e0d43a72') in 0.158086 seconds
+  Import took 0.162796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_2000.png
+  artifactKey: Guid(62aff0837f97e814c983978c5d66b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_2000.png using Guid(62aff0837f97e814c983978c5d66b896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9efa3367beedbb18a06d211c910a371') in 0.146154 seconds
+  Import took 0.149743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_1997.png
+  artifactKey: Guid(16c81c5634d167d4384b4dd4385a3f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_1997.png using Guid(16c81c5634d167d4384b4dd4385a3f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3186342921051af6c2bfaa00210654e5') in 0.145126 seconds
+  Import took 0.148126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_0084.png
+  artifactKey: Guid(ddb7a17003118444d8c2b53563c84d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_0084.png using Guid(ddb7a17003118444d8c2b53563c84d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39cf6bebd53dd4895b14bfe99c48b666') in 0.142295 seconds
+  Import took 0.145666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Resources/Sprites/Cards/Tex_0079.png
+  artifactKey: Guid(bf875b77da1ad584ca65c2d6129592a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sprites/Cards/Tex_0079.png using Guid(bf875b77da1ad584ca65c2d6129592a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27fc1b192fcf8cccd55e1691c5548cd') in 0.162894 seconds
+  Import took 0.166643 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.126213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.4 MB.
+System memory in use after: 92.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2402.
+Total: 23.606600 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.059500 ms MarkObjects: 23.154100 ms  DeleteObjects: 0.032000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.473104 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Blossoms.prefab
+  artifactKey: Guid(2d9ff8e48d8ee624f9125721d58998be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Blossoms.prefab using Guid(2d9ff8e48d8ee624f9125721d58998be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9062f3c76a6fab929777c9e6cad46064') in 0.048473 seconds
+  Import took 0.051776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/RuaneR.prefab
+  artifactKey: Guid(74e98cca75678c24b871625c12042034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/RuaneR.prefab using Guid(74e98cca75678c24b871625c12042034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4443368a419d100e0def65fefa1c60') in 0.010380 seconds
+  Import took 0.013841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/XunfangR.prefab
+  artifactKey: Guid(9ffd6a14bf979ae4196fd62c5b502687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/XunfangR.prefab using Guid(9ffd6a14bf979ae4196fd62c5b502687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8bbb6885f333db7a5e466ce45681b6') in 0.007497 seconds
+  Import took 0.011394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/ChanganCity.prefab
+  artifactKey: Guid(40fe1b79c4ad2cf478b9b83173565271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/ChanganCity.prefab using Guid(40fe1b79c4ad2cf478b9b83173565271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da5e0595ad779a91a9bc977549c231c') in 0.007869 seconds
+  Import took 0.011385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/QingxueR.prefab
+  artifactKey: Guid(cecacd75e01ebfc45823963889e88abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/QingxueR.prefab using Guid(cecacd75e01ebfc45823963889e88abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e9a0a996dd34aa2e6dff348a759a85') in 0.007127 seconds
+  Import took 0.010326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Ruane.prefab
+  artifactKey: Guid(b33d10abcabb55440a727319b4ba261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Ruane.prefab using Guid(b33d10abcabb55440a727319b4ba261e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f418cd3658530774b99e55971d75e69') in 0.007504 seconds
+  Import took 0.010373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Xunfang.prefab
+  artifactKey: Guid(56ab7f7ce50b9714cabb08a930b2b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Xunfang.prefab using Guid(56ab7f7ce50b9714cabb08a930b2b381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636d44d8c5bbf4bc2544e8d490a2bfe9') in 0.007564 seconds
+  Import took 0.010773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Brilliance.prefab
+  artifactKey: Guid(b936f317ef05d9e418cfc5568f2d2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Brilliance.prefab using Guid(b936f317ef05d9e418cfc5568f2d2bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad78e0ad063ccf394f191786f8dac8a') in 0.006961 seconds
+  Import took 0.010547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Shenxi.prefab
+  artifactKey: Guid(ed9fb66f396436f40a0aa5e1372e529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Shenxi.prefab using Guid(ed9fb66f396436f40a0aa5e1372e529f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0f3f17ff97e9d1f311a3da5a7bab75') in 0.007249 seconds
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Qingxue.prefab
+  artifactKey: Guid(3c502f7196aa4c246a32f15fb9719049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Qingxue.prefab using Guid(3c502f7196aa4c246a32f15fb9719049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b4b870d3cf52da95a20c4e87e3cdff') in 0.007040 seconds
+  Import took 0.011476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Penglai.prefab
+  artifactKey: Guid(567d3de4887df5245a8144ed9b292cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Penglai.prefab using Guid(567d3de4887df5245a8144ed9b292cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc049658e667dc3fe760bd7e5d5aaef') in 0.007968 seconds
+  Import took 0.012035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/ShenxiR.prefab
+  artifactKey: Guid(c0f37dc1e4973124abf6700fb8711d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/ShenxiR.prefab using Guid(c0f37dc1e4973124abf6700fb8711d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25afc2d0031e9cf9848f518a8e53d1dd') in 0.008540 seconds
+  Import took 0.012180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Stillwater.prefab
+  artifactKey: Guid(92e29ec19c2a6c54e95071bc51209e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Stillwater.prefab using Guid(92e29ec19c2a6c54e95071bc51209e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8e58b32fd217b11b32d1368c62ecec') in 0.007938 seconds
+  Import took 0.011556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/QingxueSR.prefab
+  artifactKey: Guid(fd26ff1daf512404ba8c7997f36ec288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/QingxueSR.prefab using Guid(fd26ff1daf512404ba8c7997f36ec288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea5fa04c3784955fd07549d13506ad5') in 0.007545 seconds
+  Import took 0.011079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Sinan.prefab
+  artifactKey: Guid(8f3438fdd55e3e84cb8d980218340839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Sinan.prefab using Guid(8f3438fdd55e3e84cb8d980218340839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498194b03ace8f9064784157cb9fb2b2') in 0.006796 seconds
+  Import took 0.010485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Lansheng.prefab
+  artifactKey: Guid(813a8265a96284c41afc24eb6d18d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Lansheng.prefab using Guid(813a8265a96284c41afc24eb6d18d37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f08a9a190dbceda39790823df61c120') in 0.007204 seconds
+  Import took 0.011172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/QinChuan.prefab
+  artifactKey: Guid(993c666f28dcfe943b0e3a28ab856fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/QinChuan.prefab using Guid(993c666f28dcfe943b0e3a28ab856fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a3ca6cc7592f4e676674a1962dd1d4') in 0.007299 seconds
+  Import took 0.010512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/Dewgrass.prefab
+  artifactKey: Guid(4d064f896f52d014fab130c55568a19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/Dewgrass.prefab using Guid(4d064f896f52d014fab130c55568a19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7324c52190d7b1e4e3e04851e91b081d') in 0.007394 seconds
+  Import took 0.010904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/Prefabs/Cards/Spring/LanshengR.prefab
+  artifactKey: Guid(0e216fa88a82aef468b7b550bdecbd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Spring/LanshengR.prefab using Guid(0e216fa88a82aef468b7b550bdecbd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f35b2bdfaaf9b51a18fbdf7adc50e9') in 0.007564 seconds
+  Import took 0.010389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.819227 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer
+  artifactKey: Guid(8dff26e9d817b524fb6822bb5bc7baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer using Guid(8dff26e9d817b524fb6822bb5bc7baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c86344e98ad7b7662742cba068bb950') in 0.001663 seconds
+  Import took 0.005044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000750 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer
+  artifactKey: Guid(8dff26e9d817b524fb6822bb5bc7baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer using Guid(8dff26e9d817b524fb6822bb5bc7baea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c86344e98ad7b7662742cba068bb950') in 0.001655 seconds
+  Import took 0.004802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108219 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Charcoal.prefab
+  artifactKey: Guid(f1d193228ff06fb4095a9bab413ad2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Charcoal.prefab using Guid(f1d193228ff06fb4095a9bab413ad2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8067c6df8564df6b74a9d482056daf88') in 0.007271 seconds
+  Import took 0.010606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/QuanyuR.prefab
+  artifactKey: Guid(d2781178be10f6d46b7131a7fc84d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/QuanyuR.prefab using Guid(d2781178be10f6d46b7131a7fc84d662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c797425ac5809b77179d3dff430a5c') in 0.012398 seconds
+  Import took 0.016420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/WuMountain.prefab
+  artifactKey: Guid(5f554c6b0481b6f4eb2a82f2e63481fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/WuMountain.prefab using Guid(5f554c6b0481b6f4eb2a82f2e63481fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8723adf5d5c7aadb3209bd2afc1f88') in 0.006990 seconds
+  Import took 0.010224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/XianglingR.prefab
+  artifactKey: Guid(4d51b196e7bd3604dbd84d2ca7a0bd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/XianglingR.prefab using Guid(4d51b196e7bd3604dbd84d2ca7a0bd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb14ab4cf06f2ec2eb21ca78fd34d40') in 0.007846 seconds
+  Import took 0.010883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/XianglingSR.prefab
+  artifactKey: Guid(5d080887b22acf44dbd2d06db291242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/XianglingSR.prefab using Guid(5d080887b22acf44dbd2d06db291242e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd1fb7341a925df8d7b484bebb3b601') in 0.008773 seconds
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Wyrmscale.prefab
+  artifactKey: Guid(bed7061fa3441a7449cdd7a5d011eb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Wyrmscale.prefab using Guid(bed7061fa3441a7449cdd7a5d011eb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd664b1ba26cf82e26bd14a998cda5a7b') in 0.007143 seconds
+  Import took 0.010216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/XieyiR.prefab
+  artifactKey: Guid(a2e1ca2cc10df9b48b983b801d75698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/XieyiR.prefab using Guid(a2e1ca2cc10df9b48b983b801d75698e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6ef5b905abb1bb3677924699bb758c') in 0.007650 seconds
+  Import took 0.011584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Xieyi.prefab
+  artifactKey: Guid(fb0aaa78f7ace5245b7e5bf6499d0db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Xieyi.prefab using Guid(fb0aaa78f7ace5245b7e5bf6499d0db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa4deea6de8bf71d548a1837f0f580f') in 0.007716 seconds
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Yuqi.prefab
+  artifactKey: Guid(b2d11671307780e4881838c949f2c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Yuqi.prefab using Guid(b2d11671307780e4881838c949f2c5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff245f207ed969ce06618d79493198a') in 0.006821 seconds
+  Import took 0.011111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Quanyu.prefab
+  artifactKey: Guid(1daa80e48513c0641bb6e3928b992f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Quanyu.prefab using Guid(1daa80e48513c0641bb6e3928b992f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3442b028630bc3d37a73c5ae37ec4a9e') in 0.007133 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Xiangling.prefab
+  artifactKey: Guid(31d3c17f5287ed6489278704bce2a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Xiangling.prefab using Guid(31d3c17f5287ed6489278704bce2a986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cd29ca3263830f26e7b4a4f127cf56') in 0.007204 seconds
+  Import took 0.010942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/YuqiR.prefab
+  artifactKey: Guid(e8dbce66e4767c94fa97dc7d94411a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/YuqiR.prefab using Guid(e8dbce66e4767c94fa97dc7d94411a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930b49418de923226a752bc6abecef4e') in 0.007544 seconds
+  Import took 0.010729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/WuyiR.prefab
+  artifactKey: Guid(5cb709c1caef5a045ba1827a8d69860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/WuyiR.prefab using Guid(5cb709c1caef5a045ba1827a8d69860f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464e91d2d716a778da91efba7df0040e') in 0.007469 seconds
+  Import took 0.010233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/ScarletJade.prefab
+  artifactKey: Guid(a109b4ce7eb58654b8565588df50509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/ScarletJade.prefab using Guid(a109b4ce7eb58654b8565588df50509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c344fd5623d0bafd1d05de7d05941c0') in 0.007161 seconds
+  Import took 0.010288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Wuyi.prefab
+  artifactKey: Guid(b85fbccac079b6e4b9b5b42473b0d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Wuyi.prefab using Guid(b85fbccac079b6e4b9b5b42473b0d10e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafbc4ee8c4a175337e436bc49885d7b') in 0.007332 seconds
+  Import took 0.010485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Penglai.prefab
+  artifactKey: Guid(4e01207a90c30184c966ff3fe75c02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Penglai.prefab using Guid(4e01207a90c30184c966ff3fe75c02ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75c6f08e15a3beb0e254b3865aaaa3f') in 0.007127 seconds
+  Import took 0.010728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/WuyiSR.prefab
+  artifactKey: Guid(d1877479687da904bb7636e807ff218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/WuyiSR.prefab using Guid(d1877479687da904bb7636e807ff218c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209066475653ac17eb282fc5e2defb8e') in 0.006829 seconds
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/LonelyFlame.prefab
+  artifactKey: Guid(72573a9062d6a6b47a629b9842805ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/LonelyFlame.prefab using Guid(72573a9062d6a6b47a629b9842805ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044c733f8ad502bafa25466f5251bb95') in 0.007239 seconds
+  Import took 0.011221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Resources/Prefabs/Cards/Summer/Meadows.prefab
+  artifactKey: Guid(35dd4c90fe137de45aaa2625b64f8e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Summer/Meadows.prefab using Guid(35dd4c90fe137de45aaa2625b64f8e1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dde90c2562bd4dd4aab1c82f8fafeb4') in 0.007149 seconds
+  Import took 0.010804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.772000 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter
+  artifactKey: Guid(6e6b67ebc6851594a9138faa03585549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter using Guid(6e6b67ebc6851594a9138faa03585549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db1189925f92b992f5f75b5867c4373') in 0.002022 seconds
+  Import took 0.005371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.277406 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/RiverOfOblivion.prefab
+  artifactKey: Guid(f34779e52d5a6c54c9591dbc38d4c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/RiverOfOblivion.prefab using Guid(f34779e52d5a6c54c9591dbc38d4c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf04e0a87a47b97d4f767c2a2b21db9') in 0.007822 seconds
+  Import took 0.012878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014988 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/RiverOfOblivion.prefab
+  artifactKey: Guid(f34779e52d5a6c54c9591dbc38d4c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/RiverOfOblivion.prefab using Guid(f34779e52d5a6c54c9591dbc38d4c78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf04e0a87a47b97d4f767c2a2b21db9') in 0.005245 seconds
+  Import took 0.009453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.206503 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Shenyue.prefab
+  artifactKey: Guid(4e883d8032507b5498b26f2f3d0b3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Shenyue.prefab using Guid(4e883d8032507b5498b26f2f3d0b3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f137199766e9271106e0fa24f5b05') in 0.007016 seconds
+  Import took 0.010824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008783 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Shenyue.prefab
+  artifactKey: Guid(4e883d8032507b5498b26f2f3d0b3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Shenyue.prefab using Guid(4e883d8032507b5498b26f2f3d0b3304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f137199766e9271106e0fa24f5b05') in 0.003689 seconds
+  Import took 0.007132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.972909 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Youdu.prefab
+  artifactKey: Guid(472aab74c6a2a5d49bc183be015b4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Youdu.prefab using Guid(472aab74c6a2a5d49bc183be015b4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c878f4b5faab99166cd2dc9319a5a2c') in 0.007411 seconds
+  Import took 0.011460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008621 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Youdu.prefab
+  artifactKey: Guid(472aab74c6a2a5d49bc183be015b4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Youdu.prefab using Guid(472aab74c6a2a5d49bc183be015b4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c878f4b5faab99166cd2dc9319a5a2c') in 0.004613 seconds
+  Import took 0.009412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.025956 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/YizeSR.prefab
+  artifactKey: Guid(f149ab12477d03b469dc036f313c904c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/YizeSR.prefab using Guid(f149ab12477d03b469dc036f313c904c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9dcb6c407de4e49957aba147c8a854') in 0.007979 seconds
+  Import took 0.011794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007729 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/YizeSR.prefab
+  artifactKey: Guid(f149ab12477d03b469dc036f313c904c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/YizeSR.prefab using Guid(f149ab12477d03b469dc036f313c904c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9dcb6c407de4e49957aba147c8a854') in 0.004105 seconds
+  Import took 0.007581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.908155 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/YizeR.prefab
+  artifactKey: Guid(0bdad6dcb569059429d919766d5c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/YizeR.prefab using Guid(0bdad6dcb569059429d919766d5c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148cf6dd5f4ea6a4c97ca074b5be84f5') in 0.007415 seconds
+  Import took 0.011243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038283 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/YizeR.prefab
+  artifactKey: Guid(0bdad6dcb569059429d919766d5c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/YizeR.prefab using Guid(0bdad6dcb569059429d919766d5c18b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148cf6dd5f4ea6a4c97ca074b5be84f5') in 0.003379 seconds
+  Import took 0.006791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.231420 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Yize.prefab
+  artifactKey: Guid(7b5f8b133bdc611419518fca5100d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Yize.prefab using Guid(7b5f8b133bdc611419518fca5100d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901527eb66d5e5a40f72e78d60671e8a') in 0.007404 seconds
+  Import took 0.011522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008918 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Yize.prefab
+  artifactKey: Guid(7b5f8b133bdc611419518fca5100d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Yize.prefab using Guid(7b5f8b133bdc611419518fca5100d5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901527eb66d5e5a40f72e78d60671e8a') in 0.003610 seconds
+  Import took 0.006991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410536 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Tusu.prefab
+  artifactKey: Guid(2930c1efcc16fbb428cbae19c8535084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Tusu.prefab using Guid(2930c1efcc16fbb428cbae19c8535084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86527b40971bfdaf8838166101dd5dc2') in 0.007189 seconds
+  Import took 0.011089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010744 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Tusu.prefab
+  artifactKey: Guid(2930c1efcc16fbb428cbae19c8535084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Tusu.prefab using Guid(2930c1efcc16fbb428cbae19c8535084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86527b40971bfdaf8838166101dd5dc2') in 0.004177 seconds
+  Import took 0.007945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.147338 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/TusuR.prefab
+  artifactKey: Guid(f3c82bb6b2224434e85e2161f0204521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/TusuR.prefab using Guid(f3c82bb6b2224434e85e2161f0204521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec784467e130d84322fa5b02d26425') in 0.007600 seconds
+  Import took 0.011355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009122 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/TusuR.prefab
+  artifactKey: Guid(f3c82bb6b2224434e85e2161f0204521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/TusuR.prefab using Guid(f3c82bb6b2224434e85e2161f0204521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec784467e130d84322fa5b02d26425') in 0.004848 seconds
+  Import took 0.008834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033559 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/HuayueR.prefab
+  artifactKey: Guid(98b8b234f387fe54c9c7392e0d1b119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/HuayueR.prefab using Guid(98b8b234f387fe54c9c7392e0d1b119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cf9cf150aa993d9d893fbb839c16b2') in 0.009178 seconds
+  Import took 0.013621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007997 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/HuayueR.prefab
+  artifactKey: Guid(98b8b234f387fe54c9c7392e0d1b119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/HuayueR.prefab using Guid(98b8b234f387fe54c9c7392e0d1b119b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cf9cf150aa993d9d893fbb839c16b2') in 0.004619 seconds
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.023818 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Huayue.prefab
+  artifactKey: Guid(3660e46bd3b519f46a7e828b31c446f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Huayue.prefab using Guid(3660e46bd3b519f46a7e828b31c446f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dd6427179d92927f8c4253d82f16fe') in 0.007397 seconds
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009321 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Huayue.prefab
+  artifactKey: Guid(3660e46bd3b519f46a7e828b31c446f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Huayue.prefab using Guid(3660e46bd3b519f46a7e828b31c446f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dd6427179d92927f8c4253d82f16fe') in 0.003673 seconds
+  Import took 0.007313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.904949 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/TaihuaMountain.prefab
+  artifactKey: Guid(0ade8c303d6a6ab48b4e0febd7b59110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/TaihuaMountain.prefab using Guid(0ade8c303d6a6ab48b4e0febd7b59110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f5f04e331ebe6653c3735d62d09d82') in 0.007720 seconds
+  Import took 0.010900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010118 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/TaihuaMountain.prefab
+  artifactKey: Guid(0ade8c303d6a6ab48b4e0febd7b59110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/TaihuaMountain.prefab using Guid(0ade8c303d6a6ab48b4e0febd7b59110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f5f04e331ebe6653c3735d62d09d82') in 0.004552 seconds
+  Import took 0.007855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.043657 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Triumph.prefab
+  artifactKey: Guid(61337bc7058338b43823b5a20c8c9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Triumph.prefab using Guid(61337bc7058338b43823b5a20c8c9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09397b6558e7adc286c6a5b6fe7a83c') in 0.007390 seconds
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010781 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Triumph.prefab
+  artifactKey: Guid(61337bc7058338b43823b5a20c8c9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Triumph.prefab using Guid(61337bc7058338b43823b5a20c8c9546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09397b6558e7adc286c6a5b6fe7a83c') in 0.003952 seconds
+  Import took 0.007440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.974589 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/SpiritTomb.prefab
+  artifactKey: Guid(b0a7a59728d37634ca8c41cb3666d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/SpiritTomb.prefab using Guid(b0a7a59728d37634ca8c41cb3666d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174898a2d4a2b9a072c4ef021cd0003') in 0.007105 seconds
+  Import took 0.011011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011097 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/SpiritTomb.prefab
+  artifactKey: Guid(b0a7a59728d37634ca8c41cb3666d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/SpiritTomb.prefab using Guid(b0a7a59728d37634ca8c41cb3666d5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174898a2d4a2b9a072c4ef021cd0003') in 0.004141 seconds
+  Import took 0.007840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.776316 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/MoonCity.prefab
+  artifactKey: Guid(4ed0f06992873124ab428f600259e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/MoonCity.prefab using Guid(4ed0f06992873124ab428f600259e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54c96bd312dd2cce6af3156040ef276') in 0.007513 seconds
+  Import took 0.011800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011089 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/MoonCity.prefab
+  artifactKey: Guid(4ed0f06992873124ab428f600259e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/MoonCity.prefab using Guid(4ed0f06992873124ab428f600259e6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54c96bd312dd2cce6af3156040ef276') in 0.003553 seconds
+  Import took 0.006970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.149843 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/LingyueSR.prefab
+  artifactKey: Guid(36a5ce35968eedd48b6f067f9a7c32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/LingyueSR.prefab using Guid(36a5ce35968eedd48b6f067f9a7c32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55950a4dd403b5670882a7b7ac90682d') in 0.007401 seconds
+  Import took 0.012420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011121 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/LingyueSR.prefab
+  artifactKey: Guid(36a5ce35968eedd48b6f067f9a7c32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/LingyueSR.prefab using Guid(36a5ce35968eedd48b6f067f9a7c32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55950a4dd403b5670882a7b7ac90682d') in 0.003809 seconds
+  Import took 0.007928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.113489 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/LingyueR.prefab
+  artifactKey: Guid(aadd645f6cf01854ebfcfe931506cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/LingyueR.prefab using Guid(aadd645f6cf01854ebfcfe931506cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447ab66bb848920505a9a0fd9dd692ea') in 0.008670 seconds
+  Import took 0.012552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010152 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/LingyueR.prefab
+  artifactKey: Guid(aadd645f6cf01854ebfcfe931506cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/LingyueR.prefab using Guid(aadd645f6cf01854ebfcfe931506cdde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447ab66bb848920505a9a0fd9dd692ea') in 0.004440 seconds
+  Import took 0.008095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.339101 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Lingyue.prefab
+  artifactKey: Guid(ab1456680c11025449d1de1d8dc9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Lingyue.prefab using Guid(ab1456680c11025449d1de1d8dc9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0d3b76e8494962c0faa32478b577e9') in 0.007673 seconds
+  Import took 0.010882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010629 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Lingyue.prefab
+  artifactKey: Guid(ab1456680c11025449d1de1d8dc9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Lingyue.prefab using Guid(ab1456680c11025449d1de1d8dc9509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0d3b76e8494962c0faa32478b577e9') in 0.003951 seconds
+  Import took 0.007259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.323577 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/DawningLight.prefab
+  artifactKey: Guid(3b1ac2d3e572f814097de1726ae64d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/DawningLight.prefab using Guid(3b1ac2d3e572f814097de1726ae64d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad7d223262d45c56061644e879fa9e1') in 0.008717 seconds
+  Import took 0.012104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010582 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/DawningLight.prefab
+  artifactKey: Guid(3b1ac2d3e572f814097de1726ae64d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/DawningLight.prefab using Guid(3b1ac2d3e572f814097de1726ae64d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad7d223262d45c56061644e879fa9e1') in 0.003671 seconds
+  Import took 0.007325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.309622 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Harp.prefab
+  artifactKey: Guid(6b7522df49394d24e8fdaf3a99fb8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Harp.prefab using Guid(6b7522df49394d24e8fdaf3a99fb8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60b0d712288ffad460950e39824d0d4') in 0.007072 seconds
+  Import took 0.010305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010242 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Harp.prefab
+  artifactKey: Guid(6b7522df49394d24e8fdaf3a99fb8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Harp.prefab using Guid(6b7522df49394d24e8fdaf3a99fb8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60b0d712288ffad460950e39824d0d4') in 0.004598 seconds
+  Import took 0.008031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.117965 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Oblivion.prefab
+  artifactKey: Guid(a671a26e45797f342a1e3dfb48d16089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Oblivion.prefab using Guid(a671a26e45797f342a1e3dfb48d16089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d11e83bca713555489aa80de1d3b829') in 0.007277 seconds
+  Import took 0.010686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010566 seconds.
+  path: Assets/Resources/Prefabs/Cards/Winter/Oblivion.prefab
+  artifactKey: Guid(a671a26e45797f342a1e3dfb48d16089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Winter/Oblivion.prefab using Guid(a671a26e45797f342a1e3dfb48d16089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d11e83bca713555489aa80de1d3b829') in 0.004712 seconds
+  Import took 0.008334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.091220 seconds.
+  path: Assets/Resources/Prefabs
+  artifactKey: Guid(adfc73ebb0d87654c9e4a2baf52a0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs using Guid(adfc73ebb0d87654c9e4a2baf52a0d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0be7ff647015768787570b060320bf7') in 0.002351 seconds
+  Import took 0.005857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.425172 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn
+  artifactKey: Guid(efa5c1d66f39a294989752630a325ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn using Guid(efa5c1d66f39a294989752630a325ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13722371a558e6ef4b9610c2399d690d') in 0.001996 seconds
+  Import took 0.005501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081646 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/AnluCity.prefab
+  artifactKey: Guid(26363ab42b7c9094fb47bfa9cf134ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/AnluCity.prefab using Guid(26363ab42b7c9094fb47bfa9cf134ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6444e64932728da23490dc623fdd7f26') in 0.007486 seconds
+  Import took 0.010968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/QianshangR.prefab
+  artifactKey: Guid(932b196cbc3503940beba8313e94cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/QianshangR.prefab using Guid(932b196cbc3503940beba8313e94cb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ec146dad1db3bbba693b25ce87af3f') in 0.007033 seconds
+  Import took 0.010037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Qinghe.prefab
+  artifactKey: Guid(14ca6b40d497c1d46bf5b5d2e634b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Qinghe.prefab using Guid(14ca6b40d497c1d46bf5b5d2e634b4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4093fd84b0b92446c2965f8c4db167d') in 0.007271 seconds
+  Import took 0.010368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/WenrenSR.prefab
+  artifactKey: Guid(6867036b367af0c449d72e65e4d30681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/WenrenSR.prefab using Guid(6867036b367af0c449d72e65e4d30681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29297cf6338dcd9f8869b723bec1db30') in 0.007045 seconds
+  Import took 0.010629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/QianshangSR.prefab
+  artifactKey: Guid(ed8d64b2daed1e34c9d67415d56004bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/QianshangSR.prefab using Guid(ed8d64b2daed1e34c9d67415d56004bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ecaed8a1ae215e2b630c355716420d') in 0.008807 seconds
+  Import took 0.013068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/QingheR.prefab
+  artifactKey: Guid(729a3ebedf5ee754199c1fee103ba0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/QingheR.prefab using Guid(729a3ebedf5ee754199c1fee103ba0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225c47d17b0e78b31eb0404bf51c37e5') in 0.007303 seconds
+  Import took 0.010604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Qianshang.prefab
+  artifactKey: Guid(689c5c65dc06efe43bc63ff395a73e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Qianshang.prefab using Guid(689c5c65dc06efe43bc63ff395a73e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e0bb8a41985000d76732cc5fb7d874') in 0.007474 seconds
+  Import took 0.010757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/JadeAltar.prefab
+  artifactKey: Guid(32a93958ad9d6994c8250c1a4605f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/JadeAltar.prefab using Guid(32a93958ad9d6994c8250c1a4605f2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c004f44e1876466751f3fd91924c33e') in 0.007101 seconds
+  Import took 0.010019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/ShaogongR.prefab
+  artifactKey: Guid(433fede5707a10849a80bc12ce52e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/ShaogongR.prefab using Guid(433fede5707a10849a80bc12ce52e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e6121c525c2b342cdc8f05b69540c0') in 0.007530 seconds
+  Import took 0.010808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/WenrenR.prefab
+  artifactKey: Guid(5c2e1932180426249a846ddc167787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/WenrenR.prefab using Guid(5c2e1932180426249a846ddc167787ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4840e46db0ebfb4f3f701953ab94e2aa') in 0.007039 seconds
+  Import took 0.010023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/YaoMountain.prefab
+  artifactKey: Guid(d264332e2807f7049b2a97c9a46772c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/YaoMountain.prefab using Guid(d264332e2807f7049b2a97c9a46772c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1573206310d00c9d8a2fdd9b4e385b') in 0.008025 seconds
+  Import took 0.011537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/BunnyPillow.prefab
+  artifactKey: Guid(df9b78cae35d37147abbfe24a891fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/BunnyPillow.prefab using Guid(df9b78cae35d37147abbfe24a891fe50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84666419432d9ad471d724fc386f857f') in 0.006824 seconds
+  Import took 0.010546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Kirin.prefab
+  artifactKey: Guid(47a06b953728df64e8fe866bc00daa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Kirin.prefab using Guid(47a06b953728df64e8fe866bc00daa43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b4e54d43988996668aa414ca9f41bf') in 0.007257 seconds
+  Import took 0.010834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/BanyanForest.prefab
+  artifactKey: Guid(2ba8bfaa46495f548933cb7d78db6f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/BanyanForest.prefab using Guid(2ba8bfaa46495f548933cb7d78db6f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2c5f7928fd65fcd43f8cac304e01b3') in 0.007683 seconds
+  Import took 0.011304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Mysticalabe.prefab
+  artifactKey: Guid(a7d4ce56ec26c764a868a43c4c3c39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Mysticalabe.prefab using Guid(a7d4ce56ec26c764a868a43c4c3c39e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89e3ad7784d076dd934330e2513fd76') in 0.007570 seconds
+  Import took 0.010876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Shaogong.prefab
+  artifactKey: Guid(ec188f6bc2e345d4aabcdc9df23ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Shaogong.prefab using Guid(ec188f6bc2e345d4aabcdc9df23ec29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83896607011aa8e9f3b345d1da3d2a06') in 0.007687 seconds
+  Import took 0.010893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Nameless.prefab
+  artifactKey: Guid(f499f41098ed05d4a8a28500fe3a3875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Nameless.prefab using Guid(f499f41098ed05d4a8a28500fe3a3875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae43f5035781b01021dd7a0219ffaf8') in 0.008241 seconds
+  Import took 0.011114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Wenren.prefab
+  artifactKey: Guid(1abe15e548db03d449b6378f78713d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Wenren.prefab using Guid(1abe15e548db03d449b6378f78713d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9076f747b53ccb61de1f8eee07535ce') in 0.007989 seconds
+  Import took 0.011343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Resources/Prefabs/Cards/Autumn/Hongyu.prefab
+  artifactKey: Guid(61e1154f83b5d44489c689594118b283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Cards/Autumn/Hongyu.prefab using Guid(61e1154f83b5d44489c689594118b283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa67b80a20c5f2bc9edf9d101ef92dec') in 0.006964 seconds
+  Import took 0.010398 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

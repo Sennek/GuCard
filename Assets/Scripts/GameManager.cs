@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 using UnityEditorInternal;
 using TMPro;
 using UnityEngine.EventSystems;
-
+using Sirenix.OdinInspector;
 public class GameManager : MonoBehaviour
 {
     [HideInInspector] public static GameManager Instance;
@@ -234,6 +234,7 @@ public class GameManager : MonoBehaviour
         Manager.ResetCardsInHand(commonHand);
     }
     #endregion
+    []
 }
 
 public static class HelperFunc
