@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(DeckStartingAnimation());
         yield return StartCoroutine(ShuffleCards());
 
-        while (playerHand[0].childCount != 0 && playerHand[0].childCount != 0)
+        while (playerHand[1].childCount != 0 && playerHand[0].childCount != 0)
         {
             foreach (PlayerGameInstance player in players)
             {
@@ -72,7 +72,6 @@ public class GameManager : MonoBehaviour
     }
     private IEnumerator PlayerTurn(PlayerGameInstance player)
     {
-
         currentStage = Stage.PlayerOneTurn;
 
         currentPlayer = player;
@@ -214,7 +213,7 @@ public class GameManager : MonoBehaviour
     {
         foreach (Card card in playerHand[0].GetComponentsInChildren<Card>())
         {
-            card.SetInteractable(active);
+            card.isInteractable = active;
         }
     }
     public void CurrentCardSet(Card card)
@@ -234,34 +233,8 @@ public class GameManager : MonoBehaviour
         Manager.ResetCardsInHand(commonHand);
     }
     #endregion
-    []
 }
 
-public static class HelperFunc
-{
-    public static T RandomOrDefault<T>(this IList<T> source)
-    {
-        if (source.Count == 0)
-            return default;
-
-        int randomInt = Random.Range(0, source.Count);
-        return source[randomInt];
-    }
-    private static System.Random rng = new System.Random();
-
-    public static void Shuffle<T>(this IList<T> list)
-    {
-        int n = list.Count;
-        while (n > 1)
-        {
-            n--;
-            int k = rng.Next(n + 1);
-            T value = list[k];
-            list[k] = list[n];
-            list[n] = value;
-        }
-    }
-}
 
 public static class Manager
 {
@@ -276,14 +249,14 @@ public static class Manager
 
         if (deck.name == "CommonHand")
         {
-            card.SetTargetable(true);
-            card.SetInteractable(false);
+            card.isTargetable = true;
+            card.isInteractable = false;
         }
 
         float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
         float targetY = Random.Range(-5, 5);
 
-        LeanTween.moveLocal(card.gameObject, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { card.InitLocalPost(); });
+        LeanTween.moveLocal(card.gameObject, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { card.InitLocalPos(); });
     }
 
     public static IEnumerator DealCards(RectTransform target, int amount)
@@ -303,13 +276,13 @@ public static class Manager
 
             if (target.name == "CommonHand")
             {
-                cardScript.SetTargetable(true);
+                cardScript.isTargetable = true;
             }
 
             float targetX = card.GetComponent<RectTransform>().sizeDelta.x / 2 * card.transform.parent.childCount * card.transform.localScale.x;
             float targetY = Random.Range(-5, 5);
 
-            LeanTween.moveLocal(card, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { cardScript.InitLocalPost(); });
+            LeanTween.moveLocal(card, new Vector3(targetX, targetY), 0.15f).setOnComplete(() => { cardScript.InitLocalPos(); });
             yield return new WaitForSeconds(0.15f);
         }
     }

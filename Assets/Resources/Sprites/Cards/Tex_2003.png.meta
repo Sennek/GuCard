@@ -272,6 +272,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -280,9 +282,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -303,9 +305,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -1080,6 +1085,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tex_2003_15: 192075638295774524
+      Tex_2003_3: -2940134054704702148
+      Tex_2003_6: 3216814119147585023
+      Tex_2003_12: -5401928245562915109
+      Tex_2003_2: -3430390892215342485
+      Tex_2003_24: 780710306570206443
+      Tex_2003_1: 7833797091415536298
+      Tex_2003_31: -3738919525035908466
+      Tex_2003_18: 4234332344470022647
+      Tex_2003_10: 2821427351131355532
+      Tex_2003_7: -8862325894880938801
+      Tex_2003_4: 5002158320081151315
+      Tex_2003_8: 2116325328586082018
+      Tex_2003_11: 1683859038451002934
+      Tex_2003_9: 6075791575877517051
+      Tex_2003_17: 926554699708156624
+      Tex_2003_19: 4534599444078207709
+      Tex_2003_25: 4929052067704609521
+      Tex_2003_13: -5747703157004586391
+      Tex_2003_23: -2052058134525406431
+      Tex_2003_26: 7691055712003866079
+      Tex_2003_27: 8518023991286800606
+      Tex_2003_30: 5533180168694726352
+      Tex_2003_20: -7499556278262400502
+      Tex_2003_32: 4208472964315091682
+      Tex_2003_5: 5148741332916632658
+      Tex_2003_22: 5242431651596282156
+      Tex_2003_14: 6992349987444998579
+      Tex_2003_0: -7351134313651397584
+      Tex_2003_16: -3324102549061686889
+      Tex_2003_34: -7218830994234161057
+      Tex_2003_28: -7218220686782107713
+      Tex_2003_33: -5976102257096747700
+      Tex_2003_29: 7448095416611311616
+      Tex_2003_21: 2571659105426103343
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

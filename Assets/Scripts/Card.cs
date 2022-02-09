@@ -17,20 +17,21 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     public int cardPoints;
     public CardType cardType;
     public bool isRare;
-    [SerializeField] private bool isSelected;
-    [SerializeField] private bool isTargetable;
-    private Image image;
-    private Vector3 originalPos;
-    private LTDescr movementAnimation;
-
+    public bool isSelected;
+    public bool isTargetable;
     public bool isInteractable;
     public bool blockOnMouseOver;
+
+    private Image image;
+    private Vector3 originalPos;
+
+
     [HideInInspector] public int cardState;
     private void Awake()
     {
         image = GetComponent<Image>();
     }
-    public void InitLocalPost()
+    public void InitLocalPos()
     {
         originalPos = transform.localPosition;
     }
@@ -40,31 +41,20 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         if (state < 0)
         {
             image.sprite = cardSpriteBack;
-            SetInteractable(false);
+            isInteractable = false;
             return;
         }
 
         image.sprite = cardSprites[state];
         image.SetNativeSize();
     }
-    public void SetInteractable(bool interactable)
 
-    {
-        if (interactable == isInteractable)
-            return;
-
-        isInteractable = interactable;
-    }
-    public void SetTargetable(bool targetable)
-    { isTargetable = targetable; }
     public void SetSelected(bool selected)
     {
         isSelected = selected;
 
         if (!selected)
-        {
             GameManager.Instance.DehighlightCommonCards();
-        }
 
         SetCardState(selected ? 2 : 0);
         GameManager.Instance.selectedCard = selected ? this : null;
@@ -99,12 +89,9 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         }
         else if (isTargetable)
         {
-            if (data.button == PointerEventData.InputButton.Left)
+            if (data.button == PointerEventData.InputButton.Left && cardType == GameManager.Instance.selectedCard.cardType)
             {
-                if (cardType == GameManager.Instance.selectedCard.cardType)
-                {
-                    StartCoroutine(GameManager.Instance.PickCards(GameManager.Instance.selectedCard, this));
-                }
+                StartCoroutine(GameManager.Instance.PickCards(GameManager.Instance.selectedCard, this));
             }
         }
     }
@@ -113,12 +100,10 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         if (isInteractable && !blockOnMouseOver)
         {
             GameManager.Instance.ShowCardName(this);
-            if (movementAnimation != null)
-            {
-                LeanTween.cancel(gameObject);
-            }
             GameManager.Instance.HighlightCommonCards(cardType, 1);
-            movementAnimation = LeanTween.moveLocalY(gameObject, 30, 0.2f);
+
+            LeanTween.cancel(gameObject);
+            LeanTween.moveLocalY(gameObject, 30, 0.2f);
         }
     }
     public void OnPointerExit(PointerEventData data)
@@ -127,12 +112,10 @@ public class Card : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         {
             GameManager.Instance.ShowCardName(null);
 
-            if (movementAnimation != null)
-            {
-                LeanTween.cancel(gameObject);
-            }
             GameManager.Instance.DehighlightCommonCards(1);
-            movementAnimation = LeanTween.moveLocalY(gameObject, originalPos.y, 0.2f);
+
+            LeanTween.cancel(gameObject);
+            LeanTween.moveLocalY(gameObject, originalPos.y, 0.2f);
         }
     }
 }

@@ -128,6 +128,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -136,9 +138,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -159,9 +161,12 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
@@ -936,6 +941,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tex_0079_4: -3410773546109512457
+      Tex_0079_31: 7057296312308796845
+      Tex_0079_5: 6271230661075303817
+      Tex_0079_9: 6353322039885345928
+      Tex_0079_29: 673192213393630557
+      Tex_0079_20: 6483785470748230059
+      Tex_0079_0: 5737534841798543445
+      Tex_0079_1: -1533756345700738097
+      Tex_0079_30: -7755877847071647137
+      Tex_0079_7: 4894667689708961430
+      Tex_0079_17: -6676156985191061615
+      Tex_0079_15: 2287414371484546734
+      Tex_0079_22: -1982631307555511669
+      Tex_0079_16: 2863802782357472790
+      Tex_0079_27: -6057656141597985797
+      Tex_0079_19: -5112692309941323002
+      Tex_0079_3: -7117868477165080119
+      Tex_0079_21: 2478731847265262178
+      Tex_0079_26: 462447039853965535
+      Tex_0079_10: -7456462653084106849
+      Tex_0079_28: -1549209017198214716
+      Tex_0079_25: 116550257579667505
+      Tex_0079_32: -8908735411264295398
+      Tex_0079_33: -7346579534219033833
+      Tex_0079_2: 8646336284325086033
+      Tex_0079_34: 8626873398365056042
+      Tex_0079_18: 8920894170575260371
+      Tex_0079_23: -7120458869340451308
+      Tex_0079_6: 8253496188299193187
+      Tex_0079_14: -93109691921522358
+      Tex_0079_11: -6454054664708829829
+      Tex_0079_24: -6831753389397572657
+      Tex_0079_13: -1796479564613032555
+      Tex_0079_8: -1056042829356647927
+      Tex_0079_12: 2907748092968688593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

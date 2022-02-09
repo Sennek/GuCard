@@ -6,7 +6,7 @@ using UnityEngine;
 public class CardCombinationContainer : MonoBehaviour
 {
     public static CardCombinationContainer cardCombo;
-    public CardCombination[] cardCombinations;
+    [SerializeField] private CardCombination[] cardCombinations;
 
     private void Start()
     {
