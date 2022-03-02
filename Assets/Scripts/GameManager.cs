@@ -51,6 +51,11 @@ public class GameManager : MonoBehaviour
 
         playerPts[0].text = playerPts[1].text = "0";
 
+        for (int i = 0; i < 2; i++)
+        {
+            TextMeshProUGUI playerNameText = playerPts[i].transform.parent.GetChild(0).GetComponent<TextMeshProUGUI>();
+            playerNameText.text = string.Format(playerNameText.text, players[i].playerName);
+        }
 
         StartCoroutine(GameStages());
     }
@@ -307,7 +312,6 @@ public class Player
     public int wins;
 
     public List<Card> rareCards;
-
 }
 public class PlayerGameInstance
 {
